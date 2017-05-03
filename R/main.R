@@ -6,7 +6,7 @@
 #' @param qid The question number or URL.
 #' @param topic Optional describing the topic of post.
 #' @param when The date/time. Defaults to Sys.time().
-#' @param live Fuck it. We'll do it live!
+#' @param live We'll do it live!
 #' @param open Logical indicating whether to open the output.
 #' @param RMD Path to RMD dir.
 #' @return Saves Rmd template with meta information.
