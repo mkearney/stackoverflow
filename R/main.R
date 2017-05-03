@@ -112,7 +112,7 @@ p_c <- function(x) {
 
 
 ```{r}
-print("I SAID FUCK IT WE'LL DO IT LIVE. WE'LL DO IT LIVE!")
+print("I SAID *** IT WE'LL DO IT LIVE. WE'LL DO IT LIVE!")
 ```
 
 
