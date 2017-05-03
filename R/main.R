@@ -17,11 +17,11 @@ stackoverflow <- function(qid,
                           open = TRUE,
                           RMD = file.path("..", "RMD")) {
     stopifnot(is.character(qid))
-    if (grepl("http", what)) {
-        url <- what
+    if (grepl("http", qid)) {
+        url <- qid
     } else {
         url <- paste0("http://stackoverflow.com/questions/",
-                      what)
+                      qid)
     }
 
     ## scrape
