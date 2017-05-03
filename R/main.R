@@ -16,7 +16,7 @@ stackoverflow <- function(qid,
                           live = FALSE,
                           open = TRUE,
                           RMD = file.path("..", "RMD")) {
-    stopifnot(is.character(what))
+    stopifnot(is.character(qid))
     if (grepl("http", what)) {
         url <- what
     } else {
